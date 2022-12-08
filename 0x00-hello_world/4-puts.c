@@ -1,7 +1,6 @@
  #include <stdio.h>
-/*
- *
- *  main: - Entry point for 'Hello, puts'
+/**
+ *  main -Entry point for 'Hello, puts'
  *
  *  Return: Always 0 (Success)
  *
