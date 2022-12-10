@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main-Entry Point 
+ * main-Entry Point
  *
  * Return:0 success
  *
@@ -9,10 +9,10 @@
 int main(void)
 {
 	char letter = 'a';
-	
+
 	while (letter <= 'z')
 	{
-		if(letter != 'e' && letter != 'a')
+		if (letter != 'e' && letter != 'q')
 		{
 			putchar(letter);
 		}
