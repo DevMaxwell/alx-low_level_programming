@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry Point
+ *print_alphabet- Entry Point
  * Return: 0
 **/
 
-int main(void)
+int print_alphabet(void)
 {
 	char letter;
 
