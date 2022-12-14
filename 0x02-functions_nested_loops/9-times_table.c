@@ -21,13 +21,12 @@ void times_table(void)
 			}
 			else
 			{
-				putchar((ans / 10) + '0');
-				putchar((ans % 10) + '0');
-				putchar (',');
-				putchar (' ');
+				_putchar((ans / 10) + '0');
+				_putchar((ans % 10) + '0');
+				_putchar (',');
+				_putchar (' ');
 			}
 		}
 		putchar('\n');
 	}
-	return (0);
 }
