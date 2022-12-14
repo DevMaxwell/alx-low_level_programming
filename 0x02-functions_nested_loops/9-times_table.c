@@ -11,7 +11,7 @@ void times_table(void)
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar(48);
-		for (dig = 0; dig <= 9; dig++)
+		for (dig = 1; dig <= 9; dig++)
 		{
 			ans = num * dig;
 			_putchar(44);
