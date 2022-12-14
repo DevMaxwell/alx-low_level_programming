@@ -6,13 +6,14 @@
 
 int main(void)
 {
-	int a, b;
+	int a;
+	int b = 0;
 
 	for (a = 1; a < 1024; a++)
 	{
 		if ((a % 3) == 0 || (a % 5) == 0)
 		{
-			b += a;
+			b =  b + a;
 		}
 		printf("%d\n", b);
 	}
