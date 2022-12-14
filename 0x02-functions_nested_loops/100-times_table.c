@@ -19,7 +19,7 @@ void print_times_table(int n)
 				ans = num * dig;
 				_putchar(44);
 				_putchar(32);
-				if (ans <= 99)
+				if (ans > 9 && ans <= 99)
 				{
 					_putchar(32);
 					_putchar((ans / 10) + 48);
