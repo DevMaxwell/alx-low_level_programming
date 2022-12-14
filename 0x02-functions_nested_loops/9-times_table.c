@@ -10,21 +10,22 @@ void times_table(void)
 
 	for (num = 0; num <= 9; num++)
 	{
+		putchar(48);
 		for (dig = 0; dig <= 9; dig++)
 		{
 			ans = num * dig;
+			putchar(44);
+			putchar(32);
+
 			if (ans < 10)
 			{
+				_putchar(32);
 				_putchar (ans + '0');
-				_putchar (',');
-				_putchar (' ');
 			}
 			else
 			{
-				_putchar((ans / 10) + '0');
-				_putchar((ans % 10) + '0');
-				_putchar (',');
-				_putchar (' ');
+				_putchar((ans / 10) + 48);
+				_putchar((ans % 10) + 48);
 			}
 		}
 		_putchar('\n');
