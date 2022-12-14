@@ -10,12 +10,12 @@ void times_table(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		putchar(48);
+		_putchar(48);
 		for (dig = 0; dig <= 9; dig++)
 		{
 			ans = num * dig;
-			putchar(44);
-			putchar(32);
+			_putchar(44);
+			_putchar(32);
 
 			if (ans < 10)
 			{
