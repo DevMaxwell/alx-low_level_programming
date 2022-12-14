@@ -34,6 +34,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(32);
+					_putchar(32);
 					_putchar(ans + 48);
 				}
 			}
